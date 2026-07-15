@@ -1,0 +1,16 @@
+{
+    "framework": "VEFLO Framework",
+    "version": "1.0.0-RC1",
+    "status": "Release Candidate",
+    "author": "VEFLO",
+    "website": "https://veflo.ir",
+    "engine": {
+        "modules": true,
+        "pages": true,
+        "components": true,
+        "widgets": true,
+        "layouts": true,
+        "services": true,
+        "controllers": true
+    }
+}

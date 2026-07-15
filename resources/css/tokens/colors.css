@@ -1,0 +1,39 @@
+/*
+|--------------------------------------------------------------------------
+| VEFLO Design Tokens
+|--------------------------------------------------------------------------
+| Version : Genesis 1.0
+| Purpose : Global Color System
+|--------------------------------------------------------------------------
+*/
+
+:root {
+
+    /* Brand */
+
+    --vf-primary: #2563EB;
+    --vf-secondary: #06B6D4;
+    --vf-accent: #8B5CF6;
+
+    /* Status */
+
+    --vf-success: #22C55E;
+    --vf-warning: #F59E0B;
+    --vf-danger: #EF4444;
+
+    /* Background */
+
+    --vf-bg: #020617;
+    --vf-surface: #0F172A;
+    --vf-surface-2: #111827;
+
+    /* Border */
+
+    --vf-border: #1E293B;
+
+    /* Text */
+
+    --vf-text: #F8FAFC;
+    --vf-text-muted: #94A3B8;
+
+}

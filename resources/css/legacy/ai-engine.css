@@ -1,0 +1,31 @@
+/* ==========================
+   VEFLO Neural Core Pulse
+========================== */
+
+@keyframes corePulse {
+
+    0%{
+        transform:scale(1);
+        opacity:.45;
+        filter:blur(40px);
+    }
+
+    50%{
+        transform:scale(1.18);
+        opacity:.95;
+        filter:blur(70px);
+    }
+
+    100%{
+        transform:scale(1);
+        opacity:.45;
+        filter:blur(40px);
+    }
+
+}
+
+.core-pulse{
+
+    animation:corePulse 4s ease-in-out infinite;
+
+}

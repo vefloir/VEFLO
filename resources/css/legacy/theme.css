@@ -1,0 +1,91 @@
+/* ==========================================
+   VEFLO Theme v1.0
+========================================== */
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:var(--bg-main);
+
+    color:var(--text-primary);
+
+    font-family:inherit;
+
+}
+
+/* Selection */
+
+::selection{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+/* Links */
+
+a{
+
+    transition:all var(--speed-normal) ease;
+
+}
+
+/* Images */
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+/* Buttons */
+
+button{
+
+    transition:all var(--speed-normal) ease;
+
+}
+
+/* Inputs */
+
+input,
+textarea,
+select{
+
+    outline:none;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:var(--bg-main);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:999px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary-light);
+
+}

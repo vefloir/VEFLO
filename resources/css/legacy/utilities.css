@@ -1,0 +1,96 @@
+/* ==========================================
+   VEFLO Utility Classes
+========================================== */
+
+/* Container */
+
+.container-veflo{
+
+    width:100%;
+
+    max-width:1280px;
+
+    margin-inline:auto;
+
+    padding-inline:24px;
+
+}
+
+/* Sections */
+
+.section{
+
+    padding-block:100px;
+
+}
+
+/* Glass */
+
+.glass{
+
+    background:var(--glass);
+
+    border:1px solid var(--glass-border);
+
+    backdrop-filter:blur(var(--blur-md));
+
+}
+
+/* Glow */
+
+.glow{
+
+    box-shadow:var(--shadow-glow);
+
+}
+
+/* Motion Card */
+
+.motion-card{
+
+    transition:
+        transform var(--speed-normal),
+        box-shadow var(--speed-normal);
+
+}
+
+.motion-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:var(--shadow-large);
+
+}
+
+/* Text Gradient */
+
+.text-gradient{
+
+    background:linear-gradient(
+        90deg,
+        var(--accent),
+        var(--primary),
+        var(--secondary)
+    );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    background-clip:text;
+
+}
+
+/* Rounded */
+
+.radius-xl{
+
+    border-radius:var(--radius-xl);
+
+}
+
+.radius-2xl{
+
+    border-radius:var(--radius-2xl);
+
+}

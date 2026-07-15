@@ -1,0 +1,136 @@
+/* =========================================
+   CARD
+========================================= */
+
+.motion-card{
+
+    transition:
+        transform .45s ease,
+        box-shadow .45s ease,
+        border-color .45s ease,
+        opacity .45s ease;
+
+}
+
+.motion-card:hover{
+
+    transform:
+        translateY(-8px)
+        scale(1.02);
+
+    box-shadow:
+        0 30px 80px rgba(59,130,246,.18);
+
+}
+
+
+/* =========================================
+   ORBIT
+========================================= */
+
+@keyframes orbitSlow{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+.motion-orbit{
+
+    animation:
+        orbitSlow 18s linear infinite;
+
+}
+
+
+/* =========================================
+   ORBIT REVERSE
+========================================= */
+
+@keyframes orbitReverse{
+
+    from{
+
+        transform:rotate(360deg);
+
+    }
+
+    to{
+
+        transform:rotate(0deg);
+
+    }
+
+}
+
+.motion-orbit-reverse{
+
+    animation:
+        orbitReverse 12s linear infinite;
+
+}
+
+
+/* =========================================
+   PULSE
+========================================= */
+
+@keyframes corePulse{
+
+    0%,100%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.08);
+
+    }
+
+}
+
+.motion-pulse{
+
+    animation:
+        corePulse 3s ease-in-out infinite;
+
+}
+
+
+/* =========================================
+   FLOAT
+========================================= */
+
+@keyframes float{
+
+    0%,100%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+}
+
+.motion-float{
+
+    animation:
+        float 5s ease-in-out infinite;
+
+}

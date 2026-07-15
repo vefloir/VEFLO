@@ -1,0 +1,68 @@
+/*
+|--------------------------------------------------------------------------
+| VEFLO Reset
+|--------------------------------------------------------------------------
+*/
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--vf-bg);
+
+    color:var(--vf-text);
+
+    overflow-x:hidden;
+
+    text-rendering:optimizeLegibility;
+
+}
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+button{
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    font:inherit;
+
+}
+
+input,
+textarea{
+
+    outline:none;
+
+    font:inherit;
+
+}
