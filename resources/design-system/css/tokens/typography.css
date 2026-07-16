@@ -1,0 +1,39 @@
+:root {
+
+  /* ==========================================
+     VEFLO TYPOGRAPHY SYSTEM
+  ========================================== */
+
+  --vf-font-family:
+    "Inter",
+    "Vazirmatn",
+    "Segoe UI",
+    sans-serif;
+
+  /* Font Sizes */
+
+  --vf-text-xs: 12px;
+  --vf-text-sm: 14px;
+  --vf-text-md: 16px;
+  --vf-text-lg: 18px;
+  --vf-text-xl: 20px;
+  --vf-text-2xl: 24px;
+  --vf-text-3xl: 30px;
+  --vf-text-4xl: 36px;
+  --vf-text-5xl: 48px;
+
+  /* Font Weight */
+
+  --vf-weight-light: 300;
+  --vf-weight-normal: 400;
+  --vf-weight-medium: 500;
+  --vf-weight-semibold: 600;
+  --vf-weight-bold: 700;
+
+  /* Line Height */
+
+  --vf-line-tight: 1.2;
+  --vf-line-normal: 1.5;
+  --vf-line-relaxed: 1.8;
+
+}
