@@ -1,0 +1,44 @@
+:root {
+
+  /* ===========================
+     VEFLO BRAND
+  =========================== */
+
+  --vf-primary: #2563EB;
+  --vf-primary-light: #3B82F6;
+  --vf-primary-dark: #1D4ED8;
+
+  --vf-accent: #06B6D4;
+
+  /* ===========================
+     BACKGROUND
+  =========================== */
+
+  --vf-background: #F8FAFC;
+  --vf-surface: #FFFFFF;
+  --vf-surface-alt: #F1F5F9;
+
+  /* ===========================
+     TEXT
+  =========================== */
+
+  --vf-text: #0F172A;
+  --vf-text-muted: #64748B;
+  --vf-text-inverse: #FFFFFF;
+
+  /* ===========================
+     BORDER
+  =========================== */
+
+  --vf-border: #E2E8F0;
+
+  /* ===========================
+     STATUS
+  =========================== */
+
+  --vf-success: #22C55E;
+  --vf-warning: #F59E0B;
+  --vf-danger: #EF4444;
+  --vf-info: #0EA5E9;
+
+}
