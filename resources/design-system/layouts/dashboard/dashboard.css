@@ -1,0 +1,63 @@
+.vf-dashboard{
+
+    display:grid;
+
+    grid-template-columns:280px 1fr;
+
+    min-height:100vh;
+
+    background:#F8FAFC;
+
+}
+
+.vf-dashboard-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.vf-dashboard-main{
+
+    flex:1;
+
+    padding:32px;
+
+}
+
+.vf-dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:24px;
+
+}
+
+@media(max-width:1200px){
+
+.vf-dashboard-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.vf-dashboard{
+
+grid-template-columns:1fr;
+
+}
+
+.vf-dashboard-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
