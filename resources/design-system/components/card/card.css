@@ -1,0 +1,48 @@
+.vf-card {
+
+    background: var(--vf-surface);
+
+    color: var(--vf-text);
+
+    border-radius: var(--vf-radius-lg);
+
+    padding: var(--vf-space-6);
+
+    box-shadow: var(--vf-shadow-md);
+
+    border: 1px solid var(--vf-border);
+
+    transition:
+        all
+        var(--vf-duration-normal)
+        var(--vf-ease-in-out);
+
+}
+
+.vf-card:hover{
+
+    transform: translateY(-3px);
+
+    box-shadow: var(--vf-shadow-xl);
+
+}
+
+.vf-card-title{
+
+    font-size: var(--vf-text-xl);
+
+    font-weight: var(--vf-weight-bold);
+
+    margin-bottom: var(--vf-space-3);
+
+}
+
+.vf-card-body{
+
+    font-size: var(--vf-text-md);
+
+    line-height: var(--vf-line-relaxed);
+
+    color: var(--vf-text-muted);
+
+}
