@@ -1,0 +1,21 @@
+:root {
+
+  /* ==========================================
+     VEFLO SPACING SYSTEM
+  ========================================== */
+
+  --vf-space-0: 0px;
+  --vf-space-1: 4px;
+  --vf-space-2: 8px;
+  --vf-space-3: 12px;
+  --vf-space-4: 16px;
+  --vf-space-5: 20px;
+  --vf-space-6: 24px;
+  --vf-space-7: 32px;
+  --vf-space-8: 40px;
+  --vf-space-9: 48px;
+  --vf-space-10: 64px;
+  --vf-space-11: 80px;
+  --vf-space-12: 96px;
+
+}
