@@ -1,0 +1,57 @@
+.vf-btn {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: var(--vf-space-2);
+
+    padding:
+        var(--vf-space-3)
+        var(--vf-space-6);
+
+    border: none;
+
+    border-radius: var(--vf-radius-md);
+
+    background: var(--vf-primary);
+
+    color: var(--vf-text-inverse);
+
+    font-family: var(--vf-font-family);
+
+    font-size: var(--vf-text-md);
+
+    font-weight: var(--vf-weight-semibold);
+
+    cursor: pointer;
+
+    transition:
+        all
+        var(--vf-duration-normal)
+        var(--vf-ease-in-out);
+
+    box-shadow:
+        var(--vf-shadow-sm);
+
+}
+
+.vf-btn:hover{
+
+    background:
+        var(--vf-primary-dark);
+
+    box-shadow:
+        var(--vf-shadow-lg);
+
+    transform:
+        translateY(-2px);
+
+}
+
+.vf-btn:active{
+
+    transform:
+        scale(.98);
+
+}
