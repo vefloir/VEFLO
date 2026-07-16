@@ -1,0 +1,19 @@
+:root {
+
+  /* ==========================================
+     VEFLO MOTION SYSTEM
+  ========================================== */
+
+  --vf-duration-fast: 150ms;
+  --vf-duration-normal: 250ms;
+  --vf-duration-slow: 400ms;
+
+  --vf-ease-default: ease;
+
+  --vf-ease-in: ease-in;
+
+  --vf-ease-out: ease-out;
+
+  --vf-ease-in-out: ease-in-out;
+
+}
