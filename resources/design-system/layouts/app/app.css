@@ -1,0 +1,25 @@
+.vf-app{
+
+    display:flex;
+
+    flex-direction:column;
+
+    min-height:100vh;
+
+    background:#F8FAFC;
+
+}
+
+.vf-app-main{
+
+    flex:1;
+
+}
+
+.vf-container{
+
+    width:min(1280px,92%);
+
+    margin:auto;
+
+}
