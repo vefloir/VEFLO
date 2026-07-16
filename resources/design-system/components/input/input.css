@@ -1,0 +1,40 @@
+.vf-input{
+
+    width:100%;
+
+    padding:
+        var(--vf-space-3)
+        var(--vf-space-4);
+
+    border:1px solid var(--vf-border);
+
+    border-radius:var(--vf-radius-md);
+
+    background:var(--vf-surface);
+
+    color:var(--vf-text);
+
+    font-family:var(--vf-font-family);
+
+    font-size:var(--vf-text-md);
+
+    transition:
+        all
+        var(--vf-duration-normal)
+        var(--vf-ease-in-out);
+
+    box-shadow:
+        var(--vf-shadow-xs);
+
+}
+
+.vf-input:focus{
+
+    outline:none;
+
+    border-color:var(--vf-primary);
+
+    box-shadow:
+        var(--vf-shadow-md);
+
+}
