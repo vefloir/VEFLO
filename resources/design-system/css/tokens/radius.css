@@ -1,0 +1,21 @@
+:root {
+
+  /* ==========================================
+     VEFLO RADIUS SYSTEM
+  ========================================== */
+
+  --vf-radius-none: 0px;
+
+  --vf-radius-xs: 4px;
+
+  --vf-radius-sm: 8px;
+
+  --vf-radius-md: 12px;
+
+  --vf-radius-lg: 16px;
+
+  --vf-radius-xl: 24px;
+
+  --vf-radius-pill: 999px;
+
+}
