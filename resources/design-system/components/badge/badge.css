@@ -1,0 +1,85 @@
+.vf-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:
+        var(--vf-space-1)
+        var(--vf-space-3);
+
+    border-radius:999px;
+
+    font-size:var(--vf-text-sm);
+
+    font-weight:var(--vf-weight-semibold);
+
+    line-height:1;
+
+}
+
+/* Success */
+
+.vf-badge-success{
+
+    background:#DCFCE7;
+
+    color:#166534;
+
+}
+
+/* Info */
+
+.vf-badge-info{
+
+    background:#DBEAFE;
+
+    color:#1D4ED8;
+
+}
+
+/* Warning */
+
+.vf-badge-warning{
+
+    background:#FEF3C7;
+
+    color:#92400E;
+
+}
+
+/* Error */
+
+.vf-badge-error{
+
+    background:#FEE2E2;
+
+    color:#B91C1C;
+
+}
+
+/* Premium */
+
+.vf-badge-premium{
+
+    background:#EDE9FE;
+
+    color:#6D28D9;
+
+}
+
+/* AI */
+
+.vf-badge-ai{
+
+    background:linear-gradient(
+        135deg,
+        #4F46E5,
+        #06B6D4
+    );
+
+    color:white;
+
+}
