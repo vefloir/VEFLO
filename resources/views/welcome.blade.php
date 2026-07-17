@@ -1,23 +1,21 @@
 @extends('layouts.app')
 
-@section('title', 'VEFLO')
-
 @section('content')
 
-<div class="min-h-screen flex items-center justify-center">
+<x-navbar />
 
-    <x-ui.card class="max-w-md">
+<x-hero />
 
-        <div class="vf-card-title">
-            اولین کارت VEFLO
-        </div>
+<x-features />
 
-        <div class="vf-card-body">
-            این اولین Component رسمی سیستم طراحی VEFLO است.
-        </div>
+<x-services />
 
-    </x-ui.card>
+<x-pricing />
 
-</div>
+<x-faq />
+
+<x-cta />
+
+<x-footer />
 
 @endsection

@@ -1,17 +1,21 @@
-@import "./base/reset.css";
-@import "./base/fonts.css";
+@import "../design-system/css/index.css";
 
-@import "./tokens/colors.css";
-@import "./tokens/spacing.css";
-@import "./tokens/radius.css";
-@import "./tokens/shadows.css";
+@import "../design-system/components/button/button.css";
+@import "../design-system/components/card/card.css";
+@import "../design-system/components/input/input.css";
+@import "../design-system/components/badge/badge.css";
+@import "../design-system/components/alert/alert.css";
+@import "../design-system/components/modal/modal.css";
+@import "../design-system/components/dropdown/dropdown.css";
+@import "../design-system/components/navbar/navbar.css";
 
-@import "./components/button.css";
-@import "./components/card.css";
-@import "./components/input.css";
-@import "./components/panel.css";
+@import "../design-system/layouts/app/app.css";
+@import "../design-system/layouts/sidebar/sidebar.css";
+@import "../design-system/layouts/dashboard/dashboard.css";
 
-@import "./layouts/landing.css";
-@import "./layouts/dashboard.css";
-
-@import "./animations/animation.css";
+@import "../design-system/sections/hero/hero.css";
+@import "../design-system/sections/services/services.css";
+@import "../design-system/sections/pricing/pricing.css";
+@import "../design-system/sections/faq/faq.css";
+@import "../design-system/sections/cta/cta.css";
+@import "../design-system/sections/footer/footer.css";
