@@ -1,48 +1,89 @@
-.vf-modal-overlay{
+.veflo-modal-overlay{
+
     position:fixed;
+
     inset:0;
+
     display:flex;
+
     align-items:center;
+
     justify-content:center;
+
     background:rgba(15,23,42,.60);
-    backdrop-filter:blur(4px);
+
+    backdrop-filter:blur(6px);
+
     z-index:1000;
+
 }
 
-.vf-modal{
-    width:min(560px,90vw);
-    background:#ffffff;
-    border-radius:var(--vf-radius-xl);
-    box-shadow:var(--vf-shadow-lg);
+.veflo-modal{
+
+    width:min(90%,600px);
+
+    background:var(--veflo-background);
+
+    border-radius:var(--radius-lg);
+
+    box-shadow:var(--shadow-lg);
+
     overflow:hidden;
-    animation:vfFadeIn .25s ease;
+
+    animation:modalFade .25s ease;
+
 }
 
-.vf-modal-header{
-    padding:20px 24px;
-    border-bottom:1px solid #E5E7EB;
-    font-weight:600;
+.veflo-modal-header{
+
+    padding:var(--space-4);
+
+    border-bottom:1px solid var(--veflo-border);
+
+    font-size:var(--text-lg);
+
+    font-weight:700;
+
 }
 
-.vf-modal-body{
-    padding:24px;
+.veflo-modal-body{
+
+    padding:var(--space-5);
+
+    color:var(--veflo-text-muted);
+
 }
 
-.vf-modal-footer{
+.veflo-modal-footer{
+
+    padding:var(--space-4);
+
+    border-top:1px solid var(--veflo-border);
+
     display:flex;
+
     justify-content:flex-end;
-    gap:12px;
-    padding:20px 24px;
-    border-top:1px solid #E5E7EB;
+
+    gap:var(--space-3);
+
 }
 
-@keyframes vfFadeIn{
+@keyframes modalFade{
+
     from{
+
         opacity:0;
-        transform:translateY(10px);
+
+        transform:translateY(12px);
+
     }
+
     to{
+
         opacity:1;
+
         transform:translateY(0);
+
     }
+
 }
