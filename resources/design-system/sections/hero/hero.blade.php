@@ -1,51 +1,50 @@
 <section class="vf-hero">
 
-<div class="vf-container">
+    <div class="vf-container">
 
-<div class="vf-hero-grid">
+        <div class="vf-hero-grid">
 
-<div class="vf-hero-content">
+            <div class="vf-hero-content">
 
-<h1>
+                <span class="vf-badge">
+                    🚀 AI Powered Advertising Platform
+                </span>
 
-Advertise Everywhere
+                <h1>
+                    Advertise Everywhere
+                    <br>
+                    With One Click
+                </h1>
 
-With One Click
+                <p>
+                    Publish your business across multiple platforms from a single dashboard.
+                    Powered by AI, SEO optimization and smart automation.
+                </p>
 
-</h1>
+                <div class="vf-hero-actions">
 
-<p>
+                    <x-button>
+                        Start Free
+                    </x-button>
 
-AI Powered Advertisement Platform
+                    <x-button>
+                        See Demo
+                    </x-button>
 
-</p>
+                </div>
 
-<div class="vf-hero-actions">
+            </div>
 
-<x-button>
+            <div class="vf-hero-image">
 
-Start Free
+                <div class="vf-hero-logo">
+                    VEFLO
+                </div>
 
-</x-button>
+            </div>
 
-<x-button>
+        </div>
 
-See Demo
-
-</x-button>
-
-</div>
-
-</div>
-
-<div class="vf-hero-image">
-
-VEFLO
-
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
