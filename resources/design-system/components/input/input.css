@@ -1,40 +1,66 @@
-.vf-input{
+.veflo-input{
 
     width:100%;
 
-    padding:
-        var(--vf-space-3)
-        var(--vf-space-4);
+    padding:var(--space-3) var(--space-4);
 
-    border:1px solid var(--vf-border);
+    border:1px solid var(--veflo-border);
 
-    border-radius:var(--vf-radius-md);
+    border-radius:var(--radius-md);
 
-    background:var(--vf-surface);
+    background:var(--veflo-background);
 
-    color:var(--vf-text);
+    color:var(--veflo-text);
 
-    font-family:var(--vf-font-family);
+    font-size:var(--text-md);
 
-    font-size:var(--vf-text-md);
+    font-family:var(--font-family);
 
-    transition:
-        all
-        var(--vf-duration-normal)
-        var(--vf-ease-in-out);
-
-    box-shadow:
-        var(--vf-shadow-xs);
-
-}
-
-.vf-input:focus{
+    transition:all var(--transition-normal);
 
     outline:none;
 
-    border-color:var(--vf-primary);
+}
+
+.veflo-input::placeholder{
+
+    color:var(--veflo-text-muted);
+
+}
+
+.veflo-input:hover{
+
+    border-color:var(--veflo-primary);
+
+}
+
+.veflo-input:focus{
+
+    border-color:var(--veflo-primary);
 
     box-shadow:
-        var(--vf-shadow-md);
+        0 0 0 3px rgba(37,99,235,.20);
+
+}
+
+.veflo-input:disabled{
+
+    background:var(--veflo-surface);
+
+    cursor:not-allowed;
+
+    opacity:.7;
+
+}
+
+.veflo-input-error{
+
+    border-color:var(--veflo-danger);
+
+}
+
+.veflo-input-success{
+
+    border-color:var(--veflo-success);
 
 }
