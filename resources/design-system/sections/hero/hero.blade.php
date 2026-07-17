@@ -1,50 +1,30 @@
-<section class="vf-hero">
+<div class="vf-dashboard-preview">
 
-    <div class="vf-container">
+    <h3>VEFLO Dashboard</h3>
 
-        <div class="vf-hero-grid">
-
-            <div class="vf-hero-content">
-
-                <span class="vf-badge">
-                    🚀 AI Powered Advertising Platform
-                </span>
-
-                <h1>
-                    Advertise Everywhere
-                    <br>
-                    With One Click
-                </h1>
-
-                <p>
-                    Publish your business across multiple platforms from a single dashboard.
-                    Powered by AI, SEO optimization and smart automation.
-                </p>
-
-                <div class="vf-hero-actions">
-
-                    <x-button>
-                        Start Free
-                    </x-button>
-
-                    <x-button>
-                        See Demo
-                    </x-button>
-
-                </div>
-
-            </div>
-
-            <div class="vf-hero-image">
-
-                <div class="vf-hero-logo">
-                    VEFLO
-                </div>
-
-            </div>
-
-        </div>
-
+    <div class="vf-stat">
+        <span>SEO Score</span>
+        <strong>98%</strong>
     </div>
 
-</section>
+    <div class="vf-stat">
+        <span>Published Ads</span>
+        <strong>64</strong>
+    </div>
+
+    <div class="vf-stat">
+        <span>AI Rewrite</span>
+        <strong>Completed</strong>
+    </div>
+
+    <div class="vf-stat">
+        <span>Traffic Growth</span>
+        <strong>+254%</strong>
+    </div>
+
+    <div class="vf-stat">
+        <span>Platforms</span>
+        <strong>60+</strong>
+    </div>
+
+</div>
