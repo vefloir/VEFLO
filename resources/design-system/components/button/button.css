@@ -1,57 +1,81 @@
-.vf-btn {
+.veflo-btn{
 
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display:inline-flex;
 
-    gap: var(--vf-space-2);
+    align-items:center;
 
-    padding:
-        var(--vf-space-3)
-        var(--vf-space-6);
+    justify-content:center;
 
-    border: none;
+    gap:var(--space-2);
 
-    border-radius: var(--vf-radius-md);
+    padding:var(--space-3) var(--space-5);
 
-    background: var(--vf-primary);
+    border:none;
 
-    color: var(--vf-text-inverse);
+    border-radius:var(--radius-md);
 
-    font-family: var(--vf-font-family);
+    background:var(--veflo-primary);
 
-    font-size: var(--vf-text-md);
+    color:var(--veflo-background);
 
-    font-weight: var(--vf-weight-semibold);
+    font-size:var(--text-md);
 
-    cursor: pointer;
+    font-weight:600;
 
-    transition:
-        all
-        var(--vf-duration-normal)
-        var(--vf-ease-in-out);
+    cursor:pointer;
 
-    box-shadow:
-        var(--vf-shadow-sm);
+    transition:all var(--transition-normal);
+
+    box-shadow:var(--shadow-sm);
 
 }
 
-.vf-btn:hover{
+.veflo-btn:hover{
 
-    background:
-        var(--vf-primary-dark);
+    background:var(--veflo-primary-hover);
 
-    box-shadow:
-        var(--vf-shadow-lg);
+    transform:translateY(-2px);
 
-    transform:
-        translateY(-2px);
+    box-shadow:var(--shadow-md);
 
 }
 
-.vf-btn:active{
+.veflo-btn:active{
 
-    transform:
-        scale(.98);
+    transform:translateY(0);
+
+}
+
+.veflo-btn:focus{
+
+    outline:none;
+
+    box-shadow:
+        0 0 0 3px rgba(37,99,235,.25),
+        var(--shadow-md);
+
+}
+
+.veflo-btn-secondary{
+
+    background:var(--veflo-secondary);
+
+}
+
+.veflo-btn-success{
+
+    background:var(--veflo-success);
+
+}
+
+.veflo-btn-warning{
+
+    background:var(--veflo-warning);
+
+}
+
+.veflo-btn-danger{
+
+    background:var(--veflo-danger);
 
 }
